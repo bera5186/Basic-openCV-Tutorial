@@ -2,6 +2,7 @@
 
 This repository contains a complete tutorial of basic OpenCV functionalities for begginers.
 OpenCV is basically library for image procesing. It has bindings in C++, Python, Java. But we will use python version in this tutorial.
+                      ![computer vision](http://breckon.eu/toby/images/wordcloud.png)
 
 ## How to Install OpenCV
 
