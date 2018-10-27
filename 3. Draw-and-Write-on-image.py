@@ -11,7 +11,7 @@ pts = numpy.array([[10,5],[20,30],[50,10],[30,56],[23,68]], numpy.int32) # numpy
 cv2.polylines(image, [pts], True, (0,255,255), 2 ) # arg 1: where to write, arg 2: coordinates, arg 3: color tuple, arg 4: line width
 
 font = cv2.FONT_HERSHEY_COMPLEX # defining cv2 font
-cv2.putText(image, 'opencv', (1200,700), font, 5, (0,255,0), 2, cv2.LINE_AA) # arg 1: where to write , arg 2: what to write, arg 3: font, arg 4: size, arg 5: color tuple, arg 6: thickness, arg 7: line type
+cv2.putText(image, 'opencv Tutorial', (200,700), font, 5, (0,255,0), 2, cv2.LINE_AA) # arg 1: where to write , arg 2: what to write, arg 3: font, arg 4: size, arg 5: color tuple, arg 6: thickness, arg 7: line type
 
 cv2.imshow('frame',image) # showing the image
 cv2.waitKey(0) # wait for a key to be pressed for exiting
