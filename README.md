@@ -17,7 +17,7 @@ OpenCV is basically library for image procesing. It has bindings in C++, Python,
 **Create a virtual environment using virtualenv:**
 ```
 # install virtualenv
-**rahul@ultron:~ $ pip install virtualenv**
+rahul@ultron:~ $ pip install virtualenv
 # to create an environment just type virtualenv then env name
 rahul@ultron:~ $ virtualenv opencv
 # activate the env
